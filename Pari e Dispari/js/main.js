@@ -23,4 +23,20 @@ let sum = sumTwoNum(userNum, pcNum);
 console.log(sum);
 
 
-// se la somma === prima variabile allora persona vince, altrimenti ha vinto il PC
+// se la somma === prima variabile allora persona vince, altrimenti ha vinto il PC:
+// guardo se la somma è pari o dispari
+let result;
+if(sum % 2 === 0){
+    result = "pari";
+    console.log(result);
+} else {
+    result ="dispari";
+    console.log(result);
+}
+
+// il suo risultato lo confronto con l'input della persona
+if(result === userChoice){
+    console.log("Hai vinto!");
+} else {
+    console.log("Ha vinto il PC");
+}
