@@ -6,10 +6,12 @@
 
 
 // prima variabile: chiedo alla persona se scegli pari o dispari con un prompt
-
+const userChoice = prompt("Scrivi se vuoi pari o dispari:");
+console.log(userChoice);
 
 // seconda variabile: chiedo alla persona di inserire un numero da 1 a 5 col prompt
-
+const userNum = prompt("Inserisci un numero da 1 a 5:");
+console.log(userNum);
 
 
 // terza variabile: un numero random (prendo la funzione) per il PC
