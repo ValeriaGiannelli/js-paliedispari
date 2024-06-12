@@ -18,31 +18,13 @@ console.log(userNum);
 let pcNum = generateRandomNum(1, 5);//inserisco la funzione
 console.log(pcNum);
 
-// quarta variabile: sarà la somma che sarà calcolata con una seconda funzione che mi prenderà il numero della persona e il numero del pc
-let sum = sumTwoNum(userNum, pcNum);
-console.log(sum);
+// quarta variabile: fare la somma dei due numeri e controllare che sia pari o dispari tramite UNA funzione
 
-
-// se la somma === prima variabile allora persona vince, altrimenti ha vinto il PC:
-// guardo se la somma è pari o dispari
-// let result;
-// if(sum % 2 === 0){
-//     result = "pari";
-//     console.log(result);
-// } else {
-//     result ="dispari";
-//     console.log(result);
-// }
-
-let result = sum % 2 === 0 ? "pari" : "dispari";
+let result = sumOddOrEven(userNum, pcNum);
 console.log(result);
 
 // il suo risultato lo confronto con l'input della persona
-// if(result === userChoice){
-//     console.log("Hai vinto!");
-// } else {
-//     console.log("Ha vinto il PC");
-// }
+
 
 let whoWin = result ===userChoice ? "Hai vinto!" : "Ha vinto il PC";
 console.log(whoWin);

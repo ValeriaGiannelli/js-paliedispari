@@ -3,6 +3,9 @@ function generateRandomNum (min, max){
 }
 
 
-function sumTwoNum (num1, num2){
-    return num1 + num2;
+function sumOddOrEven (num1, num2){
+    let sum = num1 + num2;
+    // guardo se la somma è pari o dispari
+    let result = sum % 2 === 0 ? "pari" : "dispari";
+    return result;
 }
