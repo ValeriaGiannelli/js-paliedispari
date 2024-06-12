@@ -10,13 +10,13 @@ const userChoice = prompt("Scrivi se vuoi pari o dispari:");
 console.log(userChoice);
 
 // seconda variabile: chiedo alla persona di inserire un numero da 1 a 5 col prompt
-const userNum = prompt("Inserisci un numero da 1 a 5:");
+const userNum = parseInt(prompt("Inserisci un numero da 1 a 5:"));
 console.log(userNum);
 
 
 // terza variabile: un numero random (prendo la funzione) per il PC
-
-
+let pcNum = generateRandomNum(1, 5);//inserisco la funzione
+console.log(pcNum);
 
 // quarta variabile: sarà la somma che sarà calcolata con una seconda funzione che mi prenderà il numero della persona e il numero del pc
 
