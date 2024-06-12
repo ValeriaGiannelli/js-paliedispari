@@ -19,7 +19,8 @@ let pcNum = generateRandomNum(1, 5);//inserisco la funzione
 console.log(pcNum);
 
 // quarta variabile: sarà la somma che sarà calcolata con una seconda funzione che mi prenderà il numero della persona e il numero del pc
-
+let sum = sumTwoNum(userNum, pcNum);
+console.log(sum);
 
 
 // se la somma === prima variabile allora persona vince, altrimenti ha vinto il PC
