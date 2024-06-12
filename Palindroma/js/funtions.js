@@ -14,8 +14,8 @@ function controllaParolaPalindroma(word){
 
 
     if(palindroma){
-        console.log("La parola che ha scritto è palindroma");
+        console.log("La parola che hai scritto è PALINDROMA");
     } else {
-        console.log("La parola che hai scritto non è palindroma");
+        console.log("La parola che hai scritto NON è PALINDROMA");
     }
 }

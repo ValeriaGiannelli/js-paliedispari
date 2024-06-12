@@ -12,14 +12,17 @@ console.log(userWord.length);
 // console.log(userWord[0]);
 
 
-/********* check su come confrontare le lettere con le variabili:
-i=0;
-console.log(userWord[i]);
+/********* check su come confrontare le lettere con le variabili: *********/
+// i=0;
+// console.log(userWord[i]);
+// console.log(userWord[userWord.length -1 - i]);
 
-console.log(userWord[userWord.length -1 - i]); ***********/
+/*************************************************************************/
 
 
 // funzione che mi guarda se è palindroma e riporta il risultato:
+
+/******** RIPORTO QUELLO CHE HO SCRITTO QUA NEL FOGLIO DELLE FUNCTIONS ******/
 
 // let palindroma = true;
 //     // confrontare ogni singola lettere della parola (FOR)
@@ -41,6 +44,7 @@ console.log(userWord[userWord.length -1 - i]); ***********/
 //     console.log("La parola che hai scritto non è palindroma");
 // }
 
+/**************************************************************************/
 
 let wordPalindroma = controllaParolaPalindroma(userWord);
     
